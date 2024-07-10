@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="./Additional CSS/style.css">
+
+        <title> Arithmetic Operations. </title>
+    </head>
+
+    <body>
+        <form id="calculatorForm">
+            <h2> Arithmetic Operations: </h2>
+
+            <label for="UserPromptNumber1"> Enter the first number: </label>
+            <input type="number" id="UserPromptNumber1" name="UserPromptNumber1" placeholder="Enter the number."/>
+
+            <label for="UserPromptNumber2"> Enter the second number: </label>
+            <input type="number" id="UserPromptNumber2" name="UserPromptNumber2" placeholder="Enter the number."/>
+
+            <label for="ArithmeticOperations"> Select Arithmetic Operations: </label>
+            <select name="ArithmeticOperations" id="ArithmeticOperations">
+                <option value="Addition"> Addition. (+) </option>
+                <option value="Subtraction"> Subtraction. (-) </option>
+                <option value="Multiplication"> Multiplication. (*) </option>
+                <option value="Division"> Division. (/) </option>
+            </select>
+
+            <input type="submit" value="Calculate.">
+
+            <div id="DisplayFinalResult"></div>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>
